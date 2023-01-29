@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  if !username
+    button(onclick='login()') Log in!
+    script.
+      function login() {
+        window.location.href='/login';
+      } 
+  else
+    h1 Welcom #{username}
+    p your id is: #{id}
+    p call /users to get data in json
+
