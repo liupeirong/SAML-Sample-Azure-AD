@@ -39,6 +39,6 @@ npm install
 npm start
 ```
 
-By default, the app runs on `https://localhost:5000`. Refer to this [Microsoft Teams sample app](TODO) to see how to integrate this SAML app with Teams.
+By default, the app runs on `https://localhost:5000`. Refer to this [Microsoft Teams sample app](https://github.com/liupeirong/Microsoft-Teams-Integration-OAuth2-SAML/tree/main/SamlSampleTab) to see how to integrate this SAML app with Teams.
 
 > Note that this sample does not yet implement how to log the user out or how to reauthenticate when the assertion expires.
